@@ -1,0 +1,566 @@
+
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+
+
+body{
+    margin:0;
+    padding: 0;
+    max-height: 500vh;
+    max-width:100%;
+    background-color: black;
+    height: 500vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+#box1{
+    
+    height:100vh;
+    width:100%;
+       background-image: url(wall.jpg);
+    background-size: cover;
+    background-position:center;
+    display: table;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 100vh;
+}
+#box2{
+    
+height:100vh;
+    width:100%;
+           background-image: url(wall.jpg);
+    background-size: cover;
+    background-position:center;
+    display: table;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 100vh;
+}
+#box3{
+    
+height:100vh;
+    width:100%;
+           background-image: url(wall2.png);
+    background-size: cover;
+    
+    display: table;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 100vh;
+}
+#box4{
+    
+height:100vh;
+    width:100%;
+           background-image: url(wall3.png);
+    background-size: cover;
+    
+    display: table;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 100vh;
+}
+
+
+#box5{
+    
+height:100vh;
+    width:100%;
+           background-image: url(wall.jpg);
+    background-size: cover;
+    background-position:center;
+    display: table;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 100vh;
+}
+
+
+
+#particles-js
+{
+        height: 100vh;
+
+    width: 100%;
+    margin: auto;
+    top: 0;
+    display: table;
+    position: absolute;
+
+    
+
+}
+
+
+.inner
+{
+    
+   
+    max-width: none;
+    display: table-cell;
+    vertical-align:text-top;
+  
+}
+
+#cont{
+    
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    color: #930000;
+    
+    position: absolute;
+    top: 0%;
+    right: 3%;
+
+    text-align:right;
+   
+    
+    
+}
+#first{
+    
+ margin-right: 0%;
+   
+    font-family: 'Monoton', cursive;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-size: 105px;
+    margin-top: 0%;
+    
+}
+#chang{
+    
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    color: #930000;
+    
+    position: absolute;
+    top: 0%;
+    right: 1%;
+
+    text-align:right;
+}
+
+.btn{
+    
+    
+    border:solid #1c0000;
+    font-size: 110%;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 9px;
+    font-family: 'Permanent Marker', cursive;
+    color:#930000;
+    
+    
+    margin-right: 34%;
+    margin-bottom: 70%;
+   
+    
+}
+.btn:hover{
+    
+    color:#0c6d34;
+    border:solid #0c6d34 2px;
+    background-color:#5ac976 ;
+}
+#chang{
+    margin-right: 0%;
+   
+    font-family: 'Monoton', cursive;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-size: 110px;
+    margin-top: 0%;
+     
+}
+    
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+    
+    #cont{
+        padding-bottom: 40%;
+    }
+    h1{
+        
+        font-size: 300%;
+    }
+    .btn{
+        
+        font-size: 110%;
+        padding: 9px 17px;
+        
+        
+    }
+
+}
+@media screen and (max-width: 768px) {
+     #cont{
+        padding-bottom: 40%;
+    }
+    h1{
+        
+        font-size: 300%;
+    }
+    .btn{
+        
+        font-size: 110%;
+        padding: 9px 17px;
+        
+        
+    }
+
+}
+@media screen and (max-width: 480px) {
+     #cont{
+        padding-bottom: 40%;
+    }
+    h1{
+        
+        font-size: 300%;
+    }
+    .btn{
+        
+        font-size: 110%;
+        padding: 9px 17px;
+        
+        
+    }
+	
+}
+#h1{
+    
+    font-family:  'Monoton', cursive;
+    font-size: 50px;
+    color: #930000;
+    margin:0;
+    font-weight: 800;
+    
+     padding-bottom: 10%;
+    padding-top: 0%;
+}
+
+#image{
+    
+    height: 25%;
+    width:  25%;
+    margin-right: 34%;
+    margin-top: 5%;
+    border-radius: 10%;
+    
+}
+#images{
+  
+    height: 26%;
+    width:  26%;
+    margin-right: 34%;
+    margin-top: 0%;
+    border-radius: 10%;
+    padding-top: 0%;
+    object-position: top;
+    
+}
+
+
+#playpausebtn{
+	background:url(heading3.jpg) no-repeat;
+	width:230px;
+	height:70px;
+    padding: 0;
+}
+
+#first1{
+    
+    margin-left: 58%;
+    margin-top: 2%;
+    position: relative;
+    padding: 0;
+   
+}
+#h{
+    
+    height: 150px;
+    width: 500px;
+    padding: 0;
+    border: none;
+
+}
+
+#last{
+    
+    margin-left: 63%;
+    margin-top: 6%;
+    padding: 0;
+}
+
+#hr1{
+    
+     height: 40px;
+    width: 160px;
+    padding: 0;
+    margin-left: 6%;
+    margin-top: 6%;
+    border-radius: 10%;
+
+}
+   
+#hr2{
+    
+     height: 40px;
+    width: 140x;
+    padding: 0;
+    margin-left: 18%;
+    margin-top: 6%;
+     border-radius: 10%;
+}
+#mylist{ font-size:25px; width:160px; height:60px;  padding:0px;
+    
+    
+    margin-top: 5%;
+    background-image: url(wall.jpg);
+    background-position: center;
+    color: #930000;
+    font-family: 'Permanent Marker', cursive;
+    border: solid black;
+    margin-left: 19%;
+    border-radius: 20%;
+    font-weight: bolder;
+    
+}
+button{ border:none; cursor:pointer; outline:none; 
+  
+    margin-left: 180px;
+    
+  
+    
+
+}
+button#mutebtn{
+	background:url(unmute.png) no-repeat;
+	width:65px;
+	height:65px;
+      margin-top: 12%;
+   
+}
+#first2{
+    
+  margin-left: 40%;
+    margin-top: 40%;
+}
+#innerf{
+    
+  margin-left: 0%;
+    margin-top: 40%;
+}
+
+#one{
+    
+    margin-left:60%;
+    margin-top: 11%;
+    height: 120px;
+    width: 120px;
+    
+}
+#two{
+    
+    margin-left:80%;
+    margin-top: 11%;
+    height: 120px;
+    width: 120px;
+    
+}
+#three{
+    
+    margin-left:50%;
+  margin-top: 9%;
+    height: 40px;
+    width: 150px;
+    border-radius: 12%;
+    
+}
+#four{
+    
+    margin-left:75%;
+    margin-top: 9%;
+    height: 40px;
+    width: 150px;
+    border-radius: 12%;
+}
+#five{
+    
+    margin-top:12%;
+    padding: 0;
+    margin-left: 13%;
+
+}
+#six{
+    
+    
+    height: 100px;
+    
+    
+}
+
+#box3_two{
+    
+    height: 250px;
+    width:  200px;
+    margin-left: 43.5%;
+    margin-top: 10%;
+}
+#box3_three{
+    
+    font-size:30px; width:201px; height:40px;  padding:0px;
+     background-image: url(wall.jpg);
+    background-position: center;
+    color: #930000;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    border: solid black;
+    font-weight: bolder;
+    border-radius: 20%;
+    margin-right: 40%;
+    margin-left: 43.5%;
+}
+#box3_four{
+    
+    height: 40px;
+    width:  100px;
+    margin-left: 47.5%;
+    margin-top: 2%;
+    background-color: #054f51;
+   font-family: 'Permanent Marker', cursive;
+    border: solid black;
+    font-weight: bolder;
+    border-radius: 20%;
+    font-size:28px
+    
+}
+    
+#box3_five{
+    
+    height: 80px;
+    width:  170px;
+    margin-bottom:120px; 
+    margin-left: 60px;
+    border-radius: 20%;
+    
+}
+#box3_six{
+    
+    height: 80px;
+    width:  170px;
+    margin-bottom: 120px;
+    margin-left: 800px;
+    border-radius: 20%;
+}
+    
+#box4_two{
+    
+    
+    height: 230px;
+    width: 230px;
+    margin-left:235px;
+    margin-top:127px;
+    
+}
+#box4_three{
+    
+    
+    height: 230px;
+    width: 230px;
+    margin-left:340px;
+ 
+    
+}
+#box4_four{
+    
+    font-size:30px; width:201px; height:40px;  padding:0px;
+     background-image: url(wall.jpg);
+    background-position: center;
+    color: #930000;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    border: solid black;
+    font-weight: bolder;
+    border-radius: 20%;
+    margin-left:240px;
+    margin-top: 2%;
+ 
+}
+
+#box4_five{
+    
+    font-size:30px; width:201px; height:40px;  padding:0px;
+     background-image: url(wall.jpg);
+    background-position: center;
+    color: #930000;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    border: solid black;
+    font-weight: bolder;
+    border-radius: 20%;
+    margin-left:370px;
+    margin-top:2%;
+  
+}
+#box4_six{
+    
+   height: 40px;
+    width:  100px;
+   
+    
+    background-color: #054f51;
+   font-family: 'Permanent Marker', cursive;
+    border: solid black;
+    font-weight: bolder;
+    border-radius: 20%;
+    font-size:28px;
+    
+    margin-left:580px;
+     margin-top: 10px;
+    
+    
+}
+
+#box4_eight{
+    
+    height: 80px;
+    width:  180px;
+    margin-left:13px;
+    border-radius: 20%;
+    
+    
+}
+#box4_nine{
+    
+    height: 80px;
+    width:  180px;
+    margin-left: 860px;
+    border-radius: 20%;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
