@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title></title>
+</head>
+
+ <body>
+    <div class ='container bg'>
+      
+       <div  id="div1" class="onstart1"></div>
+        <div class="onstart2"></div>
+        <div class="wrapper1">
+          <div id='overlay'></div>
+          <table id='tbl' border="3px">
+          </table>
+        </div>
+        <div class="wrapper2">
+          <div class='top-row '>
+            <img class='gold' src="gold.png" alt="gold image">
+           
+           
+           
+            
+            <h2 class='mission'> Decide who is paying for Lunch with Snakes & Ladder!</h2>
+          </div>
+          <div class='middle-row '>
+            <pre> <input type="text" id="p1name">  <input type="text" value="BOT" id="pname"></pre>
+            <img class='circle' src="circle.png" alt="golden circle">
+            <img class="p1Turn turn" src="lupid1.png" alt="monkey">
+            <img class="p2Turn turn" src="pig1.png" alt="pig">
+          </div>
+          <div class='bottom-row '>
+            <button class="dieButton" type="button"  onclick="dieroll()">Roll</button>
+                        <div class='dieValue' id="dieButton" >0</div> 
+                         <div class="cancel">
+
+               <a href="#" onclick="javascript:window.close();opener.window.focus();" ><img src="cancel.png" class="cancel1"></a>
+
+             
+             </div>
+            
+           
+           
+           
+          </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scrippt.js" charset="utf-8"></script>
+  
+
+<script>
+  
+document.getElementById("p1name").value = localStorage.getItem("Player1name");
+
+</script>
+
+<script>
+function dieroll(){
+  
+var die = document.getElementById("dieButton");
+die.classList.toggle("dieroll");
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>
+
